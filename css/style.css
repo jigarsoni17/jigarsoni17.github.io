@@ -269,7 +269,7 @@ section {
     right: 0;
     width: 45%;
     height: 100%;
-    background: transparent;
+    background: transparent;    
     transition: 3s;
 
 }
@@ -704,13 +704,12 @@ span {
 }
 
 /* ANIMATION RELOAD AND SCROLL */
-
 .animate {
     position: absolute;
     top: 0;
     right: 0;
-    width: 108%;
-    height: 108%;
+    width: 100%;
+    height: 100%;
     background: var(--bg-color);
     z-index: 98;
 }
